@@ -1,4 +1,4 @@
-functions askfeelings() {
+function askfeelings() {
   let askfeelings = "Yellow";
   let otherYellow = "yellow"; 
 
@@ -39,5 +39,5 @@ console.log(x);
 } else if (usersColor()== "Thor") {
  console.log("Well he is a Pirate Angel"); 
 } else {
-    console.log("That's still a nice color.");
+  console.log("That's still a nice color.");
 }
