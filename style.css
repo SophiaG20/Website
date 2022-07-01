@@ -7,6 +7,8 @@ body{
     height: 100%;
     font-family: arial;
     text-align:center;
+    color: blueviolet;
+    background-color: hotpink;
 }
 
 a {
@@ -16,13 +18,12 @@ a {
 
 header{
     padding: 10px;
-    /* text-shadow:1px 1px
-    1px#000;*/
+    /* text-shadow:1px 1px 1px #000;*/
     text-align: center; 
     background-color: gray;
     color:black
 }
 
 nav{
-    background-color:;
+    background-color:deeppink ;
 }
