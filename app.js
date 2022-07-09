@@ -11,9 +11,6 @@
 let usersColor = prompt("What is your favorite color?");
 // console.log(usersColor);
 
-let x = 5;
-let y = "5";
-
 // console.log(x, y); // number, string
 // console.log(x == y); // equals
 // console.log(x === y); // STRICTLY equals
