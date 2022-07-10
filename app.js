@@ -1,35 +1,12 @@
-// let yellow = "Yellow";
-// let otherYellow = "yellow";
+let userMusic = prompt("Which do you prefer between high intensity music or happy music?");
+// console.log(userMusic);
 
-// let favColor = yellow;
 
-// console.log(yellow);
-// console.log(otherYellow);
-
-// console.log(yellow == otherYellow);
-
-let usersColor = prompt("What is your favorite color?");
-// console.log(usersColor);
-
-// console.log(x, y); // number, string
-// console.log(x == y); // equals
-// console.log(x === y); // STRICTLY equals
-
-// If the user's fav color is yellow, say "Mine too!"
-// otherwise say "That's a good color"
-
-// if (usersColor == "YELLOW"){
-//     console.log("I also like YELLOW!!!!");
-// } else if (usersColor.toLowerCase() == "yellow") {
-//     console.log("Mine too!");
-// } else {
-//     console.log("That's still a nice color.");
-// }
-
-if (usersColor == "YELLOW"){
-    document.write("I also like YELLOW!!!!");
-} else if (usersColor.toLowerCase() == "yellow") {
-    document.write("Mine too!");
+if (userMusic == "high intensity"){
+    alert("I would recommend...");
+// Which song would you recommend - put later^
+} else if (userMusic.toLowerCase() == "happy music") {
+    alert("Queen: Don't Stop Me Now!");
 } else {
-    document.write("That's still a nice color.");
+    alert("I would say start with Michael Jackson");
 }
