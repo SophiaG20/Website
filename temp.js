@@ -1,5 +1,5 @@
-let whatTemp = prompt("What temp is it where you are dancing");
-console.log(whatTemp);
+//let userTemp = prompt("What temp is it where you are dancing");
+//console.log(whatTemp);
 // The best temp to dance is 18 degrees to 24 degrees Celsius
 // that temp is 64.4 - 75.2 Fahrenheit
 
@@ -21,6 +21,17 @@ console.log(whatTemp);
 
 // function whatTemp(){
         //code the function executes
+function getTempFromUser(){
+    let userTemp="";
+    while (userTemp==""){
+        userTemp = prompt("What temp is it where you are dancing");
+    }
+    let tempString = getTempString(userTemp);
+    alert(tempString);
+}
+
+
+
 
 function getTempString(temperature){
     if (temperature <=64){
@@ -31,3 +42,4 @@ function getTempString(temperature){
           return "We need to cool down to get ready to dance";
     }
 }
+getTempFromUser();
