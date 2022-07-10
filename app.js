@@ -1,13 +1,3 @@
-// let yellow = "Yellow";
-// let otherYellow = "yellow";
-
-// let favColor = yellow;
-
-// console.log(yellow);
-// console.log(otherYellow);
-
-// console.log(yellow == otherYellow);
-
 let userMusic = prompt("Which do you prefer between high intensity music or happy music?");
 // console.log(userMusic);
 
