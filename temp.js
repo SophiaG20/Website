@@ -5,14 +5,14 @@ console.log(whatTemp);
 
 // I want to do Celsius or Fahrenheit and if they are too hot or too cold
 // to tell the user to turn up the heat or make it colder before dancing
-let message;
+
 
 if (whatTemp <=64){
-    message = "Warm up your dancing space";
+    alert("Warm up your dancing space");
 } else if (whatTemp<=75){
-    message = "Let us get ready to boogie";
-} else if (whatTemp=>75){
-    message = "We need to cool down to get ready to dance";
+    alert("Let us get ready to boogie");
+} else if (whatTemp>=75){
+    alert("We need to cool down to get ready to dance");
 };
 
 
