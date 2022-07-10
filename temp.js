@@ -11,7 +11,7 @@ if (whatTemp <=64){
     alert("Warm up your dancing space");
 } else if (whatTemp<=75){
     alert("Let us get ready to boogie");
-} else if (whatTemp>=75){
+} else if (whatTemp>=76){
     alert("We need to cool down to get ready to dance");
 };
 
