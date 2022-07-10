@@ -13,7 +13,6 @@ if (whatTemp <=64){
     alert("Let us get ready to boogie");
 } else if (whatTemp>=76){
     alert("We need to cool down to get ready to dance");
-};
 
 
 // learning about functions
@@ -22,6 +21,4 @@ if (whatTemp <=64){
 
 // function whatTemp(){
         //code the function executes
-
-//}
-  
+}
