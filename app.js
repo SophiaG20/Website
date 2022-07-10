@@ -1,5 +1,6 @@
 let userMusic = prompt("Which do you prefer between high intensity music or happy music?");
 // console.log(userMusic);
+// Just checking if I can change this onto Github
 
 
 if (userMusic == "high intensity"){
